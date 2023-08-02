@@ -1,0 +1,101 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00a6ff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+
+.contact {
+  background-color: #ac4df9;
+  height: 402px;
+  width: 80px;
+}
+
+.contact h3 {
+  margin: 1px;
+  padding-top: 80px;
+  align-items: center;
+}
+
+.contact a:hover {
+  color: #22ff00;
+}
+
+.about {
+  background-color: #79e3d1;
+  align-items: center;
+  height: 402px;
+}
+
+.work {
+  background-color: #3a78e1;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.about h3 {
+  margin: 1px;
+  align-items: center;
+  margin-left: 50%;
+}
+
+.bred-pit {
+  width: 300px;
+  height: 215px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42%;
+  padding: 0px;
+}
+.about .bred-pit img:hover {
+  border-radius: 50%;
+  animation-name: rotateAnimation;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.work h3 {
+  margin: 10px;
+}
+
+.footer p {
+  background-color: #79e3d1;
+  text-align: center;
+  height: 40px;
+  margin: 2px;
+}
+
+span {
+  color: rgb(255, 0, 0);
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
